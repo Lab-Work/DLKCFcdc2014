@@ -1,35 +1,12 @@
 package filters;
-
 import filters.KCF;
 import section.Section;
-
-
-
-
-
-
-
-
-
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-
-
-
-
-
-
-
-
-
-
 import model.RoadModel;
-
 import org.jblas.DoubleMatrix;
 import org.jfree.data.xy.XYSeries;
-
 import Jama.EigenvalueDecomposition;
 import Jama.Matrix;
 import doubleMatrix.Concat;
