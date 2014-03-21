@@ -46,7 +46,7 @@ public class Test {
 		    }
 	    }
 
-	    Estimation.exportResult(trueSolution, 2000, "CF72_(M_0.0009_bdry0.09(OnlyNeededBdry)VSS0.0004)_checkLyapunov");
+	    Estimation.exportResult(trueSolution, 2000, "CF72_(M_0.0009_bdry0.0009(OnlyNeededBdry)VSS0.0004)_checkLyapunov1");
 
 		
 

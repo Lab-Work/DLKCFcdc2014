@@ -171,18 +171,18 @@ public abstract class RoadModel {
 // accounting for increased model error standard deviation on the boundary cells with constant dynamics
 	public void updateModelVar() {
 		if(section.getClass().getSimpleName().equals("FF")){
-			modelVar.put(0,0,0.09);
+			modelVar.put(0,0,0.0009);
 //			modelVar.put(cellsec-1,cellsec-1,0.25);
 //			modelVar=modelVar;
 		}
 		else if (section.getClass().getSimpleName().equals("CC")){
 //			modelVar.put(0,0,0.25);
-			modelVar.put(cellsec-1,cellsec-1,0.09);
+			modelVar.put(cellsec-1,cellsec-1,0.0009);
 //			modelVar=modelVar;
 		}
 		else if (section.getClass().getSimpleName().equals("FC")){
-			modelVar.put(cellsec-1,cellsec-1,0.09);
-			modelVar.put(0,0,0.09);
+			modelVar.put(cellsec-1,cellsec-1,0.0009);
+			modelVar.put(0,0,0.0009);
 //			modelVar=modelVar;
 		}
 		else{
