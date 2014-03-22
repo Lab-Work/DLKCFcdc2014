@@ -6,7 +6,7 @@ DLKCFcdc2014
 
 General usage notes:
 
-1. This release of software is intended to complement a paper submission to the 53rd Annual Conference on Decision and Control (CDC)
+1. This release of software is intended to complement a paper submission to the 53rd Annual Conference on Decision and Control (CDC);
 2. This software is intended to be run on Eclipse. It was developed using Eclipse 4.3.0, and the development environment is Java SE Development Kit 7u25.
 
 
